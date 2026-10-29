@@ -19,6 +19,7 @@ Execute the script from the `FEMProc` folder using:
 
 ```bash
 abaqus cae noGUI=steel0D1F.py
+```
 
 Once the simulation completes, it is necessary to extract: The elastic strain energy for each cracked configuration, and the tensile stress distribution along the expected crack path for the undamaged (uncracked) configuration. This extraction is carried out via `visualizer_energy.py` and `visualizer_stress.py`. Both scripts must be executed inside the simulation directory immediately after running the FEM simulation:
 
