@@ -16,9 +16,9 @@ The code is structured into two main sequential modules:
 
 This module has the following structure:
 
-<p>
-  <img src="CCmodule.png" width="200" />
-</p>
+<div>
+  <img src="CCmodule.png" width="100" />
+</div>
 
 The main script for this module is `CCPostProc.py`, which must be executed to perform the data post-processing and the Coupled Criterion analysis. It requires two inputs:
 
