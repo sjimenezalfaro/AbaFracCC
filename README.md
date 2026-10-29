@@ -35,7 +35,7 @@ Ambos códigos devuelven dos archivos `.dat` que contienen los inputs necesarios
 
 **Coupled Criterion Post-processing Module** 
 
-This module has the following structure and all the codes are contained in the folder `CCPostProc`:
+All the codes of the module are contained in the folder `CCPostProc`. The following structure describes the numerical framework:
 
 <img src="./CC_module.png" width="600" align="center">
 
