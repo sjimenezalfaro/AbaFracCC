@@ -3,7 +3,7 @@ import numpy as np
 from math import *
 from scipy.interpolate import interp1d
 
-def CCProcess(CC_stress, CC_energy, Scv, Gcv):
+def CCprocess(CC_stress, CC_energy, Scv, Gcv):
         # Yp - position, Sp - Tensile stress, W - elastic strain energy, W0 - elastic strain energy in the uncracked configuration
         Yp, Sp, W = CC_stress[0,:], CC_stress[1,:], CC_energy
         W0 = W[0]
