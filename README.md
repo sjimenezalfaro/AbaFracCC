@@ -14,7 +14,7 @@ The code is structured into two main sequential modules:
 
 **Coupled Criterion Post-processing Module** 
 
-This module has the following structure:
+This module has the following structure and all the codes are contained in the folder `CCPostProc`:
 
 <img src="./CC_module.png" width="600" align="center">
 
