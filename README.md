@@ -1,4 +1,4 @@
-# AbaFracCC: Numerical estimation of the fracture toughness via Coupled Criterion in Abaqus
+<img width="967" height="317" alt="image" src="https://github.com/user-attachments/assets/917bc642-8374-4faa-a2dd-9a5a45132a3b" /># AbaFracCC: Numerical estimation of the fracture toughness via Coupled Criterion in Abaqus
 **Sara Jiménez-Alfaro**$^{1,*}$, **Luis Miguel Ferreira**$^{1,2}$, **Zaarena Gani**$^3$, **Vladislav Mantič**$^1$, and **Luis Távara**$^1$
 
 $^1$ *Departamento de Mecánica de Medios Continuos y Teoría de Estructuras. Escuela Técnica Superior de Ingeniería, Universidad de Sevilla, Camino de los descubrimientos, s/n, 41092, Seville, Spain.*  
@@ -16,7 +16,7 @@ The code is structured into two main sequential modules:
 
 This module has the following structure:
 
-Imagen con la estructura del codigo
+!(CC_module.png)
 
 The main script for this module is `CCPostProc.py`, which must be executed to perform the data post-processing and the Coupled Criterion analysis. It requires two inputs:
 
