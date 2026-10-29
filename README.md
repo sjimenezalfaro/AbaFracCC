@@ -6,3 +6,19 @@ $^2$ *Departamento de Mecánica de Medios Continuos y Teoría de Estructuras. Es
 $^3$ *Department of Mechanical Engineering, University College London, Torrington Place, WC1E 7JE, London, United Kingdom*  
 
 $^*$ *Contact:* [sjimenezalfaro@us.es]
+
+\section{Structure of the numerical files}
+
+The code is structured into two main sequential modules:
+
+\subsection{FEM Solver Module:} 
+
+
+\subsection{Coupled Criterion Post-processing Module:} 
+This code solves the minimization problem associated with the Coupled Criterion. It requires two inputs:
+
+* **Elastic strain energy files:** Four `.dat` files located in the `energy_output` directory, containing the evolution of the elastic strain energy along the expected crack path obtained from the previous module for a representative displacement of $U=1$. Each file represents one of the four geometric configurations studied for the $0^\circ$-oriented printed steel.
+* **Tensile stress files:** Four `.dat` files located in the `stress_output` directory, containing the evolution of the tensile stress along the expected crack path obtained from the previous module for a representative displacement of $U=1$. Each file represents one of the four geometric configurations studied for the $0^\circ$-oriented printed steel.
+
+
+\end{enumerate}
