@@ -31,7 +31,7 @@ The execution of the Coupled Criterion is carried out in the `CCprocess.py` scri
 The analysis of the Coupled Criterion results to determine fracture toughness is carried out via `CCPostProc.py`. Through a minimization process, this script determines the fracture toughness value that minimizes the discrepancy with the critical force obtained from experimental tests. It yields the following outputs:
 
 * **Optimal values of $\sigma_c$, $G_c$, and $K_c$:** Printed directly to the terminal screen alongside the minimum root mean square error (RMSE) achieved.
-* **Projection figure (`projection_steel0.svg`):** Displays the admissible values of $\sigma_{\mathrm{c}}$ and $K_{\mathrm{c}}$ for each specimen in the flat-lay configuration. The yellow region highlights the domain bounded by the four analyzed specimens, whereas the green region indicates an RMS error of less than 5%. The selected optimal point is marked as G.
+* **Projection figure (`projection_steel0.svg` in the folder `output`):** Displays the admissible values of $\sigma_{\mathrm{c}}$ and $K_{\mathrm{c}}$ for each specimen in the flat-lay configuration. The yellow region highlights the domain bounded by the four analyzed specimens, whereas the green region indicates an RMS error of less than 5%. The selected optimal point is marked as G.
 
 
 
