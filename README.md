@@ -16,10 +16,6 @@ The code is structured into two main sequential modules:
 
 This module has the following structure:
 
-<div>
-  <img src="CCmodule.png" width="100" />
-</div>
-
 The main script for this module is `CCPostProc.py`, which must be executed to perform the data post-processing and the Coupled Criterion analysis. It requires two inputs:
 
 * **Elastic strain energy files:** Four `.dat` files located in the `energy_output` directory, containing the evolution of the elastic strain energy along the expected crack path obtained from the previous module for a representative displacement of $U=1$. Each file represents one of the four geometric configurations studied for the $0^\circ$-oriented printed steel.
