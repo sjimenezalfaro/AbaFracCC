@@ -15,6 +15,7 @@ The code is structured into two main sequential modules:
 
 
 **Coupled Criterion Post-processing Module** 
+
 This code solves the minimization problem associated with the Coupled Criterion. It requires two inputs:
 
 * **Elastic strain energy files:** Four `.dat` files located in the `energy_output` directory, containing the evolution of the elastic strain energy along the expected crack path obtained from the previous module for a representative displacement of $U=1$. Each file represents one of the four geometric configurations studied for the $0^\circ$-oriented printed steel.
