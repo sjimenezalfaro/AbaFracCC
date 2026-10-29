@@ -11,9 +11,7 @@ The code is structured into two main sequential modules:
 
 **Finite Element Method Module** 
 
-This module is located in the `FEMProc` folder and generates the Finite Element (FE) solutions for a 3-point bending test on a U-notched specimen in the **D1-F** geometrical configuration. 
-
-The main script `steel0D1F.py` does not require any additional user input. It automatically iterates along the prescribed crack path by sequentially unbinding (releasing) nodes to calculate the FEM solution across all cracked configurations.
+This module is located in the `FEMProc` folder and generates the Finite Element (FE) solutions for a 3-point bending test on a U-notched specimen in the **D1-F** geometrical configuration. The main script `steel0D1F.py` does not require any additional user input. It automatically iterates along the prescribed crack path by sequentially unbinding (releasing) nodes to calculate the FEM solution across all cracked configurations.
 
 Execute the script using:
 
@@ -21,7 +19,7 @@ Execute the script using:
 abaqus cae noGUI=steel0D1F.py
 ```
 
-Once the simulation completes, it is necessary to extract: the elastic strain energy for each cracked configuration, and the tensile stress distribution along the expected crack path for the undamaged (uncracked) configuration. This extraction is carried out via `visualizer_energy.py` and `visualizer_stress.py`. Both scripts must be executed inside the simulation directory immediately after running the FEM simulation:
+The abaqus solutions are stored in two different folders. Folder `simulation` stores abaqus processor data, whereas `edition` folder stores the `cae` files. As an example, the first uncracked simulation has been included in the repository. Once the simulation completes, it is necessary to extract: the elastic strain energy for each cracked configuration, and the tensile stress distribution along the expected crack path for the undamaged (uncracked) configuration. This extraction is carried out via `visualizer_energy.py` and `visualizer_stress.py`. Both scripts must be executed inside the simulation directory immediately after running the FEM simulation:
 
 ```bash
 abaqus python visualizer_energy.py
