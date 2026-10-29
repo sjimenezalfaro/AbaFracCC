@@ -7,6 +7,11 @@ $^3$ *Department of Mechanical Engineering, University College London, Torringto
 
 $^*$ *Contact:* [sjimenezalfaro@us.es]
 
+The following codes have been used to determine the fracture toughness of extrusion-based additively manufactured 17-4PH stainless steel using Single-Edge Notched Bending (SENB) specimens printed in two different build orientations (flat-lay and upright). The numerical framework and the results can be found in the publication: 
+
+Jiménez-Alfaro, S., Ferreira, L.M., Gani, Z., Távara, L. & Mantic, V. (2026). Fracture toughness evaluation of extrusion-based
+additively manufactured 17-4PH stainless steel using U-notched specimens, in press. 
+
 The code is structured into two main sequential modules:
 
 **Finite Element Method Module** 
