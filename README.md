@@ -11,11 +11,11 @@ The code is structured into two main sequential modules:
 
 **Finite Element Method Module** 
 
-This module generates the Finite Element (FE) solutions for a 3-point bending test on a U-notched specimen in the **D1-F** geometrical configuration. 
+This module is located `FEMProc` folder in the  generates the Finite Element (FE) solutions for a 3-point bending test on a U-notched specimen in the **D1-F** geometrical configuration. 
 
 The main script `steel0D1F.py` does not require any additional user input. It automatically iterates along the prescribed crack path by sequentially unbinding (releasing) nodes to calculate the FEM solution across all cracked configurations.
 
-Execute the script from the `FEMProc` folder using:
+Execute the script using:
 
 ```bash
 abaqus cae noGUI=steel0D1F.py
