@@ -33,6 +33,7 @@ The analysis of the Coupled Criterion results to determine fracture toughness is
 * **Optimal values of $\sigma_c$, $G_c$, and $K_c$:** Printed directly to the terminal screen alongside the minimum root mean square error (RMSE) achieved.
 * **Projection figure (`projection_steel0.svg` in the folder `output`):** Displays the admissible values of $\sigma_{\mathrm{c}}$ and $K_{\mathrm{c}}$ for each specimen in the flat-lay configuration. The yellow region highlights the domain bounded by the four analyzed specimens, whereas the green region indicates an RMS error of less than 5%. The selected optimal point is marked as G.
 * **3D evolution of the error figure (`diff_steel0_3D.svg` in the folder `output`):** Displays the evolution of the total error $\sum (\Delta F_{\mathrm{crit}})^2 / F_{\mathrm{exp}}^2$ with respecto to $\sigma_c$ and $K_c$.
+* **RMS evolution in a heatmap figure (`rms_steel0_heatmap.svg` in the folder `output`):** Variation of RMS with respect to $\sigma_{\mathrm{c}}$ and $K_{\mathrm{c}}$.
 
 
 
